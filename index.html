@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>math-olympiad-plexus</title> -->
+    <title>math-olympiad-network</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&family=Newsreader:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+
+</head>
+
+<body>
+    <main id="container">
+        <svg id="graph"></svg>
+    </main>
+
+    <nav id="controls">
+        <button onclick="resetView()">Reset</button>
+        <button onclick="toggleLabels()" id="labelsBtn">Labels</button>
+        <button onclick="filterByType()" id="filterBtn">Filter</button>
+    </nav>
+
+    <aside id="stats">
+        <div><span class="stat-value" id="node-count">0</span> nodes</div>
+        <div><span class="stat-value" id="edge-count">0</span> edges</div>
+    </aside>
+
+    <aside id="legend">
+        <h3>Node Types</h3>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #1a1a1a;"></div>
+            <span>Contest</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #4a4a4a;"></div>
+            <span>Problem</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #7a7a7a;"></div>
+            <span>Field</span>
+        </div>
+        <div class="legend-item">
+            <div class="legend-dot" style="background: #aaaaaa;"></div>
+            <span>Subfield</span>
+        </div>
+    </aside>
+
+    <section id="sidebar">
+        <div class="close" onclick="closeSidebar()"></div>
+        <div id="sidebar-content"></div>
+    </section>
+
+    <script src="scripts.js">
+    </script>
+</body>
+
+</html>

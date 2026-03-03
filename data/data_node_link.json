@@ -1,0 +1,2943 @@
+{
+  "nodes": [
+    {
+      "id": "contest-IMO",
+      "type": "contest",
+      "name": "IMO",
+      "count": 36,
+      "group": "contest"
+    },
+    {
+      "id": "contest-APMO",
+      "type": "contest",
+      "name": "APMO",
+      "count": 25,
+      "group": "contest"
+    },
+    {
+      "id": "contest-Putnam",
+      "type": "contest",
+      "name": "Putnam",
+      "count": 6,
+      "group": "contest"
+    },
+    {
+      "id": "field-Geometry",
+      "type": "field",
+      "name": "Geometry",
+      "count": 18,
+      "group": "field"
+    },
+    {
+      "id": "field-Algebra",
+      "type": "field",
+      "name": "Algebra",
+      "count": 21,
+      "group": "field"
+    },
+    {
+      "id": "field-Combinatorics",
+      "type": "field",
+      "name": "Combinatorics",
+      "count": 24,
+      "group": "field"
+    },
+    {
+      "id": "field-NumberTheory",
+      "type": "field",
+      "name": "Number Theory",
+      "count": 26,
+      "group": "field"
+    },
+    {
+      "id": "subfield-EuclideanGeometry",
+      "type": "subfield",
+      "name": "Euclidean Geometry",
+      "count": 15,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Inequalities",
+      "type": "subfield",
+      "name": "Inequalities",
+      "count": 8,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-GraphTheory",
+      "type": "subfield",
+      "name": "Graph Theory",
+      "count": 16,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-ElementaryNumberTheory",
+      "type": "subfield",
+      "name": "Elementary Number Theory",
+      "count": 18,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-ExtremalProblems",
+      "type": "subfield",
+      "name": "Extremal Problems",
+      "count": 2,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-PigeonholePrinciple",
+      "type": "subfield",
+      "name": "Pigeonhole Principle",
+      "count": 3,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-DiophantineEquations",
+      "type": "subfield",
+      "name": "Diophantine Equations",
+      "count": 4,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-RealAnalysis",
+      "type": "subfield",
+      "name": "Real Analysis",
+      "count": 6,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Calculus",
+      "type": "subfield",
+      "name": "Calculus",
+      "count": 2,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-ConfigurationalGeometry",
+      "type": "subfield",
+      "name": "Configurational Geometry",
+      "count": 10,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-CircleGeometry",
+      "type": "subfield",
+      "name": "Circle Geometry",
+      "count": 11,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Permutations",
+      "type": "subfield",
+      "name": "Permutations",
+      "count": 2,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Invariants",
+      "type": "subfield",
+      "name": "Invariants",
+      "count": 9,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-ModularArithmetic",
+      "type": "subfield",
+      "name": "Modular Arithmetic",
+      "count": 7,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-SetTheory",
+      "type": "subfield",
+      "name": "Set Theory",
+      "count": 3,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-LinearAlgebra",
+      "type": "subfield",
+      "name": "Linear Algebra",
+      "count": 2,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-FunctionalEquations",
+      "type": "subfield",
+      "name": "Functional Equations",
+      "count": 7,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Polynomials",
+      "type": "subfield",
+      "name": "Polynomials",
+      "count": 5,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Sequences",
+      "type": "subfield",
+      "name": "Sequences",
+      "count": 5,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-GameTheory",
+      "type": "subfield",
+      "name": "Game Theory",
+      "count": 3,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-CombinatorialGeometry",
+      "type": "subfield",
+      "name": "Combinatorial Geometry",
+      "count": 3,
+      "group": "subfield"
+    },
+    {
+      "id": "subfield-Probability",
+      "type": "subfield",
+      "name": "Probability",
+      "count": 1,
+      "group": "subfield"
+    },
+    {
+      "id": "IMO-2020-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 1,
+      "host": "Russia",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry"
+      ],
+      "statement": "Consider the convex quadrilateral $ABCD$. The point $P$ is in the interior of $ABCD$. The following ratio equalities hold: \\[\\angle PAD : \\angle PBA : \\angle DPA = 1 : 2 : 3 = \\angle CBP : \\angle BAP : \\angle BPC.\\] Prove that the following three lines meet in a point: the internal bisectors of angles $\\angle ADP$ and $\\angle PCB$ and the perpendicular bisector of segment $AB$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2020-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 2,
+      "host": "Russia",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Inequalities"
+      ],
+      "statement": "The real numbers $a, b, c, d$ are such that $a \\ge b \\ge c \\ge d > 0$ and $a+b+c+d = 1$. Prove that \\[ (a+2b+3c+4d) a^a b^b c^c d^d < 1. \\]",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2020-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 3,
+      "host": "Russia",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory"
+      ],
+      "statement": "There are $4n$ pebbles of weights $1, 2, 3, \\dots, 4n$. Each pebble is coloured in one of $n$ colours, and there are four pebbles of each colour. Show that we can arrange the pebbles into two piles such that the following two conditions are satisfied: the total weights of both piles are the same, and each pile contains exactly two pebbles of each colour.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2020-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 4,
+      "host": "Russia",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory"
+      ],
+      "statement": "There is an integer $n > 1$. There are $n^2$ stations on a slope of a mountain, all at different altitudes. Each of two cable car companies, $A$ and $B$, operates $k$ cable cars; each cable car provides a transfer from one of the stations to a higher one (with no intermediate stops). The $k$ cable cars of $A$ have $k$ different starting points and $k$ different finishing points, and a cable car which starts higher also finishes higher. The same conditions hold for $B$. We say that two stations are linked by a company if one can start from the lower station and reach the higher one by using one or more cars of that company (no other movements between stations are allowed).Determine the smallest positive integer $k$ for which one can guarantee that there are two stations that are linked by both companies.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2020-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 5,
+      "host": "Russia",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "A deck of $n > 1$ cards is given. A positive integer is written on each card. The deck has the property that the arithmetic mean of the numbers on each pair of cards is also the geometric mean of the numbers on some collection of one or more cards. For which $n$ does it follow that the numbers on the cards are all equal?",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2020-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2020,
+      "position": 6,
+      "host": "Russia",
+      "fields": [
+        "Geometry",
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Extremal Problems"
+      ],
+      "statement": "Prove that there exists a positive constant $c$ such that the following statement is true: Consider an integer $n > 1$, and a set $S$ of $n$ points in the plane such that the distance between any two different points in $S$ is at least $1$. It follows that there is a line $\\ell$ separating $S$ such that the distance from any point of $S$ to $\\ell$ is at least $c n^{-1/3}$. (A line $\\ell$ separates a set of points $S$ if some segment joining two points in $S$ crosses $\\ell$.)",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 1,
+      "host": "Russia",
+      "fields": [
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Pigeonhole Principle",
+        "Graph Theory",
+        "Diophantine Equations"
+      ],
+      "statement": "Let $n \\ge 100$ be an integer. Ivan writes the numbers $n, n + 1,\\dots, 2n$ each on different cards. He then shuffles these $n + 1$ cards, and divides them into two piles. Prove that at least one of the piles contains two cards such that the sum of their numbers is a perfect square.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 2,
+      "host": "Russia",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Inequalities",
+        "Real Analysis",
+        "Calculus"
+      ],
+      "statement": "Show that the inequality \\[\\sum_{i=1}^{n} \\sum_{j=1}^{n} \\sqrt{|x_i - x_j|} \\le \\sum_{i=1}^{n} \\sum_{j=1}^{n} \\sqrt{|x_i + x_j|}\\] holds for all real numbers $x_1,\\dots,x_n$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 3,
+      "host": "Russia",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $D$ be an interior point of the acute triangle $ABC$ with $AB > AC$ so that $\\angle DAB = \\angle CAD$. The point $E$ on the segment $AC$ satisfies $\\angle ADE = \\angle BCD$, the point $F$ on the segment $AB$ satisfies $\\angle FDA = \\angle DBC$, and the point $X$ on the line $AC$ satisfies $CX = BX$. Let $O_1$ and $O_2$ be the circumcentres of the triangles $ADC$ and $EXD$, respectively. Prove that the lines $BC$, $EF$, and $O_1O_2$ are concurrent.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 4,
+      "host": "Russia",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry"
+      ],
+      "statement": "Let $\\Gamma$ be a circle with centre $I$, and $ABCD$ a convex quadrilateral such that each of the segments $AB, BC, CD$ and $DA$ is tangent to $\\Gamma$. Let $\\Omega$ be the circumcircle of the triangle $AIC$. The extension of $BA$ beyond $A$ meets $\\Omega$ at $X$, and the extension of $BC$ beyond $C$ meets $\\Omega$ at $Z$. The extensions of $AD$ and $CD$ beyond $D$ meet $\\Omega$ at $Y$ and $T$, respectively. Prove that $AD+DT+TX+XA=CD + DY+YZ+ZC$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 5,
+      "host": "Russia",
+      "fields": [
+        "Combinatorics",
+        "Algebra"
+      ],
+      "subfields": [
+        "Permutations",
+        "Graph Theory",
+        "Invariants"
+      ],
+      "statement": "Two squirrels, Bushy and Jumpy, have collected 2021 walnuts for the winter. Jumpy numbers the walnuts from 1 through 2021, and digs 2021 little holes in a circular pattern in the ground around their favourite tree. The next morning Jumpy notices that Bushy had placed one walnut into each hole, but had paid no attention to the numbering. Unhappy, Jumpy decides to reorder the walnuts by performing a sequence of 2021 moves. In the $k$-th move, Jumpy swaps the positions of the two walnuts adjacent to walnut $k$. Prove that there exists a value of $k$ such that, on the $k$-th move, Jumpy swaps some walnuts $a$ and $b$ such that $a < k < b$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2021-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2021,
+      "position": 6,
+      "host": "Russia",
+      "fields": [
+        "Number Theory",
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Diophantine Equations",
+        "Modular Arithmetic",
+        "Set Theory",
+        "Linear Algebra"
+      ],
+      "statement": "Let $m \\ge 2$ be an integer, $A$ be a finite set of (not necessarily positive) integers, and $B_1, B_2, B_3,\\dots, B_m$ be subsets of $A$. Assume that for each $k = 1, 2,\\dots, m$ the sum of the elements of $B_k$ is $m^k$. Prove that $A$ contains at least $m/2$ elements.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 1,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Invariants",
+        "Graph Theory"
+      ],
+      "statement": "The Bank of Oslo issues two types of coin: aluminium (denoted A) and bronze (denoted B). Marianne has $n$ aluminium coins and $n$ bronze coins, arranged in a row in some arbitrary initial order. A chain is any subsequence of consecutive coins of the same type. Given a fixed positive integer $k \\le 2n$, Marianne repeatedly performs the following operation: she identifies the longest chain containing the $k$-th coin from the left, and moves all coins in that chain to the left end of the row. For example, if $n = 4$ and $k = 4$, the process starting from the ordering $AABBBABA$ would be \\[ AABBBABA \\to BBBAAABA \\to AAABBBBA \\to BBBBAAAA \\to\\dots \\] Find all pairs $(n,k)$ with $1 \\le k \\le 2n$ such that for every initial ordering, at some moment during the process, the leftmost $n$ coins will all be of the same type.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 2,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Functional Equations",
+        "Inequalities",
+        "Real Analysis"
+      ],
+      "statement": "Let $\\mathbb{R}^+$ denote the set of positive real numbers. Find all functions $f: \\mathbb{R}^+ \\to \\mathbb{R}^+$ such that for each $x \\in \\mathbb{R}^+$, there is exactly one $y \\in \\mathbb{R}^+$ satisfying $xf(y) + yf(x) \\le 2$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 3,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Number Theory",
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Elementary Number Theory",
+        "Graph Theory",
+        "Modular Arithmetic"
+      ],
+      "statement": "Let $k$ be a positive integer and let $S$ be a finite set of odd prime numbers. Prove that there is at most one way (up to rotation and reflection) to place the elements of $S$ around a circle such that the product of any two neighbours is of the form $x^2 + x + k$ for some positive integer $x$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 4,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $ABCDE$ be a convex pentagon such that $BC = DE$. Assume that there is a point $T$ inside $ABCDE$ with $TB = TD$, $TC = TE$ and $\\angle ABT = \\angle TEA$. Let line $AB$ intersect lines $CD$ and $CT$ at points $P$ and $Q$, respectively. Assume that the points $P, B, A, Q$ occur on their line in that order. Let line $AE$ intersect lines $CD$ and $DT$ at points $R$ and $S$, respectively. Assume that the points $R, E, A, S$ occur on their line in that order. Prove that the points $P, S, Q, R$ lie on a circle.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 5,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Elementary Number Theory",
+        "Diophantine Equations",
+        "Modular Arithmetic"
+      ],
+      "statement": "Find all triples $(a, b, p)$ of positive integers with $p$ prime and $a^p = b! + p$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2022-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2022,
+      "position": 6,
+      "host": "Oslo, Norway",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Extremal Problems",
+        "Invariants"
+      ],
+      "statement": "Let $n$ be a positive integer. A Nordic square is an $n \\times n$ board containing all the integers from 1 to $n^2$ so that each cell contains exactly one number. Two different cells are considered adjacent if they share a common side. Every cell that is adjacent only to cells containing larger numbers is called a valley. An uphill path is a sequence of one or more cells such that: <br> (i) the first cell in the sequence is a valley, \\\\ (ii) each subsequent cell in the sequence is adjacent to the previous cell, and \\\\ (iii) the numbers written in the cells in the sequence are in increasing order. \\\\ Find, as a function of $n$, the smallest possible total number of uphill paths in a Nordic square.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 1,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "Determine all composite integers $n > 1$ that satisfy the following property: if $d_1, d_2,\\dots, d_k$ are all the positive divisors of $n$ with $1 = d_1 < d_2 <\\dots < d_k = n$, then $d_i$ divides $d_{i+1} + d_{i+2}$ for every $1 \\le i \\le k-2$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 2,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Configurational Geometry",
+        "Circle Geometry"
+      ],
+      "statement": "Let $ABC$ be an acute-angled triangle with $AB < AC$. Let $\\Omega$ be the circumcircle of $ABC$. Let $S$ be the midpoint of the arc $CB$ of $\\Omega$ containing $A$. The perpendicular from $A$ to $BC$ meets $BS$ at $D$ and meets $\\Omega$ again at $E \\ne A$. The line through $D$ parallel to $BC$ meets line $BE$ at $L$. Denote the circumcircle of triangle $BDL$ by $\\omega$. Let $\\omega$ meet $\\Omega$ again at $P \\ne B$. Prove that the line tangent to $\\omega$ at $P$ meets line $BS$ on the internal angle bisector of $\\angle BAC$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 3,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Polynomials",
+        "Sequences",
+        "Elementary Number Theory"
+      ],
+      "statement": "For each integer $k \\ge 2$, determine all infinite sequences of positive integers $a_1, a_2,\\dots$ for which there exists a polynomial $P$ of the form $P(x) = x^k + c_{k-1}x^{k-1} + \\dots + c_1x + c_0$, where $c_0, c_1,\\dots, c_{k-1}$ are non-negative integers, such that $P(a_n) = a_{n+1}a_{n+2}\\dots a_{n+k}$ for every integer $n \\ge 1$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 4,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Inequalities",
+        "Real Analysis"
+      ],
+      "statement": "Let $x_1, x_2,\\dots, x_{2023}$ be pairwise different positive real numbers such that \\[a_n = \\sqrt{(x_1 + x_2 +\\dots + x_n)\\left(\\frac{1}{x_1} + \\frac{1}{x_2} +\\dots + \\frac{1}{x_n}\\right)}\\] is an integer for every $n = 1, 2,\\dots, 2023$. Prove that $a_{2023} \\ge 3034$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 5,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Pigeonhole Principle"
+      ],
+      "statement": "Let $n$ be a positive integer. A Japanese triangle consists of $1+2+\\dots+n$ circles arranged in an equilateral triangular shape such that for each $i = 1, 2,\\dots, n$, the $i^{\\text{th}}$ row contains exactly $i$ circles, exactly one of which is coloured red. A ninja path in a Japanese triangle is a sequence of $n$ circles obtained by starting in the top row, then repeatedly going from a circle to one of the two circles immediately below it and finishing in the bottom row. Here is an example of a Japanese triangle with $n = 6$, along with a ninja path in that triangle containing two red circles (please see the image). In terms of $n$, find the greatest $k$ such that in each Japanese triangle there is a ninja path containing at least $k$ red circles.",
+      "image_ref": "data/IMO-2023-P5-image.png",
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2023-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2023,
+      "position": 6,
+      "host": "Chiba, Japan",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Configurational Geometry",
+        "Circle Geometry"
+      ],
+      "statement": "Let $ABC$ be an equilateral triangle. Let $A_1, B_1, C_1$ be interior points of $ABC$ such that $BA_1 = A_1C$, $CB_1 = B_1A$, $AC_1 = C_1B$, and $\\angle BA_1C + \\angle CB_1A + \\angle AC_1B = 480^{\\circ}$. Let $BC_1$ and $CB_1$ meet at $A_2$, let $CA_1$ and $AC_1$ meet at $B_2$, and let $AB_1$ and $BA_1$ meet at $C_2$. Prove that if triangle $A_1B_1C_1$ is scalene, then the three circumcircles of triangles $AA_1A_2$, $BB_1B_2$ and $CC_1C_2$ all pass through two common points. (Note: a scalene triangle is one where no two sides have equal length.)",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 1,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "Determine all real numbers $\\alpha$ such that, for every positive integer $n$, the integer \\[\\lfloor\\alpha\\rfloor + \\lfloor 2\\alpha\\rfloor + \\dots + \\lfloor n\\alpha\\rfloor\\] is a multiple of $n$. (Note that $\\lfloor z\\rfloor$ denotes the greatest integer less than or equal to $z$. For example, $\\lfloor-\\pi\\rfloor = -4$ and $\\lfloor 2\\rfloor = \\lfloor 2.9\\rfloor = 2$.)",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 2,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "Determine all pairs $(a, b)$ of positive integers for which there exist positive integers $g$ and $N$ such that $\\gcd(a^n + b, b^n + a) = g$ holds for all integers $n \\ge N$. (Note that $\\gcd(x, y)$ denotes the greatest common divisor of integers $x$ and $y$.)",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 3,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Sequences",
+        "Pigeonhole Principle",
+        "Graph Theory"
+      ],
+      "statement": "Let $a_1, a_2, a_3,\\dots$ be an infinite sequence of positive integers, and let $N$ be a positive integer. Suppose that, for each $n > N$, $a_n$ is equal to the number of times $a_{n-1}$ appears in the list $a_1, a_2,\\dots, a_{n-1}$. Prove that at least one of the sequences $a_1, a_3, a_5,\\dots$ and $a_2, a_4, a_6,\\dots$ is eventually periodic. (An infinite sequence $b_1, b_2, b_3,\\dots$ is eventually periodic if there exist positive integers $p$ and $M$ such that $b_{m+p}=b_{m}$ for all $m > M$.)",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 4,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $ABC$ be a triangle with $AB < AC < BC$. Let the incentre and incircle of triangle $ABC$ be $I$ and $\\omega$, respectively. Let $X$ be the point on line $BC$ different from $C$ such that the line through $X$ parallel to $AC$ is tangent to $\\omega$. Similarly, let $Y$ be the point on line $BC$ different from $B$ such that the line through $Y$ parallel to $AB$ is tangent to $\\omega$. Let $AI$ intersect the circumcircle of triangle $ABC$ again at $P\\ne A$. Let $K$ and $L$ be the midpoints of $AC$ and $AB$, respectively. Prove that $\\angle KIL + \\angle YPX = 180^{\\circ}$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 5,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Invariants",
+        "Game Theory"
+      ],
+      "statement": "Turbo the snail plays a game on a board with 2024 rows and 2023 columns. There are hidden monsters in 2022 of the cells. Initially, Turbo does not know where any of the monsters are, but he knows that there is exactly one monster in each row except the first row and the last row, and that each column contains at most one monster. Turbo makes a series of attempts to go from the first row to the last row. On each attempt, he chooses to start on any cell in the first row, then repeatedly moves to an adjacent cell sharing a common side. (He is allowed to return to a previously visited cell.) If he reaches a cell with a monster, his attempt ends and he is transported back to the first row to start a new attempt. The monsters do not move, and Turbo remembers whether or not each cell he has visited contains a monster. If he reaches any cell in the last row, his attempt ends and the game is over. Determine the minimum value of n for which Turbo has a strategy that guarantees reaching the last row on the nth attempt or earlier, regardless of the locations of the monsters.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2024-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2024,
+      "position": 6,
+      "host": "Bath, United Kingdom",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Functional Equations"
+      ],
+      "statement": "Let $\\mathbb{Q}$ be the set of rational numbers. A function $f:\\mathbb{Q} \\to \\mathbb{Q}$ is called aquaesulian if the following property holds: for every $x, y \\in \\mathbb{Q}$, $f(x+f(y)) = f(x) + y$ or $f(f(x) + y) = x + f(y)$. Show that there exists an integer $c$ such that for any aquaesulian function $f$ there are at most $c$ different rational numbers of the form $f(r) + f(-r)$ for some rational number $r$, and find the smallest possible value of $c$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P1",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 1,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Combinatorics",
+        "Geometry"
+      ],
+      "subfields": [
+        "Combinatorial Geometry"
+      ],
+      "statement": "A line in the plane is called sunny if it is not parallel to any of the $x$-axis, the $y$-axis, and the line $x + y = 0$. Let $n \\geq 3$ be a given integer. Determine all nonnegative integers $k$ such that there exist $n$ distinct lines in the plane satisfying both of the following: for all positive integers $a$ and $b$ with $a + b \\leq n + 1$, the point $(a, b)$ is on at least one of the lines; and exactly $k$ of the $n$ lines are sunny.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P2",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 2,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry"
+      ],
+      "statement": "Let $\\Omega$ and $\\Gamma$ be circles with centres $M$ and $N$, respectively, such that the radius of $\\Omega$ is less than the radius of $\\Gamma$. Suppose circles $\\Omega$ and $\\Gamma$ intersect at two distinct points $A$ and $B$. Line $MN$ intersects $\\Omega$ at $C$ and $\\Gamma$ at $D$, such that points $C, M, N$ and $D$ lie on the line in that order. Let $P$ be the circumcentre of triangle $ACD$. Line $AP$ intersects $\\Omega$ again at $E \\neq A$. Line $AP$ intersects $\\Gamma$ again at $F \\neq A$. Let $H$ be the orthocentre of triangle $PMN$. Prove that the line through $H$ parallel to $AP$ is tangent to the circumcircle of triangle $BEF$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P3",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 3,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Elementary Number Theory",
+        "Functional Equations"
+      ],
+      "statement": "Let $\\mathbb{N}$ denote the set of positive integers. A function $f:\\mathbb{N}\\to\\mathbb{N}$ is said to be bonza if $f(a)$ divides $b^a - f(b)^{f(a)}$ for all positive integers $a$ and $b$. Determine the smallest real constant $c$ such that $f(n) \\leq cn$ for all bonza functions $f$ and all positive integers $n$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P4",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 4,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Sequences",
+        "Elementary Number Theory"
+      ],
+      "statement": "A proper divisor of a positive integer $N$ is a positive divisor of $N$ other than $N$ itself. The infinite sequence $a_1, a_2, \\dots$ consists of positive integers, each of which has at least three proper divisors. For each $n \\geq 1$, the integer $a_{n+1}$ is the sum of the three largest proper divisors of $a_n$. Determine all possible values of $a_1$.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P5",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 5,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Combinatorics",
+        "Algebra"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Invariants",
+        "Inequalities",
+        "Game Theory"
+      ],
+      "statement": "Alice and Bazza are playing the inekoalaty game, a two-player game whose rules depend on a positive real number $\\lambda$ which is known to both players. On the $n^{\\text{th}}$ turn of the game (starting with $n = 1$) the following happens:\\n\\n* If $n$ is odd, Alice chooses a nonnegative real number $x_n$ such that $x_1 + x_2 + \\dots + x_n \\leq \\lambda n$.\\n\\n* If $n$ is even, Bazza chooses a nonnegative real number $x_n$ such that $x_1^2 + x_2^2 + \\dots + x_n^2 \\leq n$.\\n\\nIf a player cannot choose a suitable number $x_n$, the game ends and the other player wins. If the game goes on forever, neither player wins. All chosen numbers are known to both players. Determine all values of $\\lambda$ for which Alice has a winning strategy and all those for which Bazza has a winning strategy.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "IMO-2025-P6",
+      "type": "problem",
+      "contest": "IMO",
+      "year": 2025,
+      "position": 6,
+      "host": "Sunshine Coast, Australia",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Invariants",
+        "Graph Theory"
+      ],
+      "statement": "Consider a $2025 \\times 2025$ grid of unit squares. Matilda wishes to place on the grid some rectangular tiles, possibly of different sizes, such that each side of every tile lies on a grid line and every unit square is covered by at most one tile. Determine the minimum number of tiles Matilda needs to place so that each row and each column of the grid has exactly one unit square that is not covered by any tile.",
+      "image_ref": null,
+      "group": "IMO"
+    },
+    {
+      "id": "APMO-2020-P1",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2020,
+      "position": 1,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $\\Gamma$ be the circumcircle of $\\triangle ABC$. Let $D$ be a point on the side $BC$. The tangent to $\\Gamma$ at $A$ intersects the parallel line to $BA$ through $D$ at point $E$. The segment $CE$ intersects $\\Gamma$ again at $F$. Suppose $B, D, F, E$ are concyclic. Prove that $AC$, $BF$, $DE$ are concurrent.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2020-P2",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2020,
+      "position": 2,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Sequences",
+        "Elementary Number Theory"
+      ],
+      "statement": "Show that $r = 2$ is the largest real number $r$ which satisfies the following condition: If a sequence $a_1, a_2, \\dots$ of positive integers fulfills the inequalities $a_n \\leq a_{n+2} \\leq \\sqrt{a_n^2 + r a_{n+1}}$ for every positive integer $n$, then there exists a positive integer $M$ such that $a_{n+2} = a_n$ for every $n \\geq M$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2020-P3",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2020,
+      "position": 3,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Set Theory"
+      ],
+      "statement": "Determine all positive integers $k$ for which there exist a positive integer $m$ and a set $S$ of positive integers such that any integer $n > m$ can be written as a sum of distinct elements of $S$ in exactly $k$ ways.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2020-P4",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2020,
+      "position": 4,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Sequences",
+        "Polynomials",
+        "Set Theory"
+      ],
+      "statement": "Let $\\mathbb{Z}$ denote the set of all integers. Find all polynomials $P(x)$ with integer coefficients that satisfy the following property: For any infinite sequence $a_1, a_2, \\dots$ of integers in which each integer in $\\mathbb{Z}$ appears exactly once, there exist indices $i < j$ and an integer $k$ such that $a_i + a_{i+1} + \\dots + a_j = P(k)$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2020-P5",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2020,
+      "position": 5,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Invariants",
+        "Elementary Number Theory"
+      ],
+      "statement": "Let $n \\geq 3$ be a fixed integer. The number 1 is written $n$ times on a blackboard. Below the blackboard, there are two buckets that are initially empty. A move consists of erasing two of the numbers $a$ and $b$, replacing them with the numbers 1 and $a + b$, then adding one stone to the first bucket and $\\gcd(a, b)$ stones to the second bucket. After some finite number of moves, there are $s$ stones in the first bucket and $t$ stones in the second bucket, where $s$ and $t$ are positive integers. Find all possible values of the ratio $\\frac{t}{s}$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2021-P1",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2021,
+      "position": 1,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Functional Equations",
+        "Elementary Number Theory",
+        "Real Analysis"
+      ],
+      "statement": "Prove that for each real number $r > 2$, there are exactly two or three positive real numbers $x$ satisfying the equation $x^2 = r\\lfloor x \\rfloor$. Note: $\\lfloor x \\rfloor$ denotes the largest integer less than or equal to $x$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2021-P2",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2021,
+      "position": 2,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Polynomials",
+        "Elementary Number Theory",
+        "Modular Arithmetic"
+      ],
+      "statement": "For a polynomial $P$ and a positive integer $n$, define $P_n$ as the number of positive integer pairs $(a, b)$ such that $a < b \\leq n$ and $|P(a)| - |P(b)|$ is divisible by $n$. Determine all polynomial $P$ with integer coefficients such that $P_n \\leq 2021$ for all positive integers $n$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2021-P3",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2021,
+      "position": 3,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $ABCD$ be a cyclic convex quadrilateral and $\\Gamma$ be its circumcircle. Let $E$ be the intersection of the diagonals $AC$ and $BD$, let $L$ be the center of the circle tangent to sides $AB$, $BC$, and $CD$, and let $M$ be the midpoint of the arc $BC$ of $\\Gamma$ not containing $A$ and $D$. Prove that the excenter of triangle $BCE$ opposite $E$ lies on the line $LM$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2021-P4",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2021,
+      "position": 4,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Invariants"
+      ],
+      "statement": "Given a $32 \\times 32$ table, we put a mouse (facing up) at the bottom left cell and a piece of cheese at several other cells. The mouse then starts moving. It moves forward except that when it reaches a piece of cheese, it eats a part of it, turns right, and continues moving forward. We say that a subset of cells containing cheese is good if, during this process, the mouse tastes each piece of cheese exactly once and then falls off the table. Show that:<br>(a) No good subset consists of 888 cells.<br>(b) There exists a good subset consisting of at least 666 cells.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2021-P5",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2021,
+      "position": 5,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Algebra",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Functional Equations",
+        "Elementary Number Theory"
+      ],
+      "statement": "Determine all functions $f: \\mathbb{Z} \\to \\mathbb{Z}$ such that $f(f(a) - b) + bf(2a)$ is a perfect square for all integers $a$ and $b$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2022-P1",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2022,
+      "position": 1,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "Find all pairs (a, b) of positive integers such that $a^3$ is a multiple of $b^2$ and $b-1$ is a multiple of $a-1$. Note: An integer $n$ is said to be a multiple of an integer $m$ if there is an integer $k$ such that $n = km$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2022-P2",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2022,
+      "position": 2,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $ABC$ be a right triangle with $\\angle B = 90^{\\circ}$. Point $D$ lies on the line $CB$ such that $B$ is between $D$ and $C$. Let $E$ be the midpoint of $AD$ and let $F$ be the second intersection point of the circumcircle of $\\triangle ACD$ and the circumcircle of $\\triangle BDE$. Prove that as $D$ varies, the line $EF$ passes through a fixed point.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2022-P3",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2022,
+      "position": 3,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory",
+        "Algebra"
+      ],
+      "subfields": [
+        "Modular Arithmetic",
+        "Elementary Number Theory"
+      ],
+      "statement": "Find all positive integers $k < 202$ for which there exists a positive integer $n$ such that \\[\\{\\frac{n}{202}\\} + \\{\\frac{2n}{202}\\} + \\cdots + \\{\\frac{kn}{202}\\} = \\frac{k}{2},\\]. where $\\{x\\}$ denotes the fractional part of $x$. Note: The fractional part of a real number $x$ is defined as the real number $k$ with $0 \\leq k < 1$ such that $x - k$ is an integer.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2022-P4",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2022,
+      "position": 4,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Game Theory"
+      ],
+      "statement": "Let $n$ and $k$ be positive integers. Cathy is playing the following game. There are $n$ marbles and $k$ boxes, with the marbles labelled 1 to $n$. Initially, all marbles are placed inside one box. Each turn, Cathy chooses a box and then moves the marbles with the smallest label, say $i$, to either any empty box or the box containing marble $i+1$. Cathy wins if at any point there is a box containing only marble $n$. Determine all pairs of integers $(n,k)$ such that Cathy can win this game.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2022-P5",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2022,
+      "position": 5,
+      "host": "Indonesia (Senior Coordinating Country)",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Polynomials",
+        "Inequalities"
+      ],
+      "statement": "Let $a, b, c, d$ be real numbers such that $a^2 + b^2 + c^2 + d^2 = 1$. Determine the minimum value of $(a - b)(b - c)(c - d)(d - a)$ and determine all values of $(a, b, c, d)$ such that the minimum value is achieved.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2023-P1",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2023,
+      "position": 1,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics",
+        "Geometry"
+      ],
+      "subfields": [
+        "Combinatorial Geometry",
+        "Graph Theory"
+      ],
+      "statement": "Let $n \\geq 5$ be an integer. Consider $n$ squares with side lengths $1, 2, \\dots, n$, respectively. The squares are arranged in the plane with their sides parallel to the $x$ and $y$ axes. Suppose that no two squares touch, except possibly at their vertices. Show that it is possible to arrange these squares in a way such that every square touches exactly two other squares.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2023-P2",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2023,
+      "position": 2,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Elementary Number Theory"
+      ],
+      "statement": "Find all integers $n$ satisfying $n \\geq 2$ and $\\frac{\\sigma(n)}{p(n) - 1} = n$, in which $\\sigma(n)$ denotes the sum of all positive divisors of $n$, and $p(n)$ denotes the largest prime divisor of $n$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2023-P3",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2023,
+      "position": 3,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry"
+      ],
+      "statement": "Let $ABCD$ be a parallelogram. Let $W$, $X$, $Y$, and $Z$ be points on sides $AB$, $BC$, $CD$, and $DA$, respectively, such that the incenters of triangles $AWZ$, $BXW$, $CYX$ and $DZY$ form a parallelogram. Prove that $WXYZ$ is a parallelogram.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2023-P4",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2023,
+      "position": 4,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Functional Equations",
+        "Inequalities",
+        "Real Analysis"
+      ],
+      "statement": "Let $c > 0$ be a given positive real and $\\mathbb{R}_{>0}$ be the set of all positive reals. Find all functions $f: \\mathbb{R}_{>0}\\to \\mathbb{R}_{>0}$ such that $f((c+1)x+f(y)) = f(x+2y) + 2cx$ for all $x, y \\in \\mathbb{R}_{>0}$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2023-P5",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2023,
+      "position": 5,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory",
+        "Combinatorial Geometry"
+      ],
+      "statement": "There are $n$ line segments on the plane, no three intersecting at a point, and each pair intersecting once in their respective interiors. Tony and his $2n - 1$ friends each stand at a distinct endpoint of a line segment. Tony wishes to send Christmas presents to each of his friends as follows: First, he chooses an endpoint of each segment as a \"sink\". Then he places the present at the endpoint of the segment he is at. The present moves as follows:<br>\u2022 If it is on a line segment, it moves towards the sink.<br>\u2022 When it reaches an intersection of two segments, it changes the line segment it travels on and starts moving towards the new sink.<br>If the present reaches an endpoint, the friend on that endpoint can receive their present. Prove that Tony can send presents to exactly $n$ of his $2n - 1$ friends.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2024-P1",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2024,
+      "position": 1,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Let $ABC$ be an acute triangle. Let $D$ be a point on side $AB$ and $E$ be a point on side $AC$ such that lines $BC$ and $DE$ are parallel. Let $X$ be an interior point of $BCED$. Suppose rays $DX$ and $EX$ meet side $BC$ at points $P$ and $Q$, respectively such that both $P$ and $Q$ lie between $B$ and $C$. Suppose that the circumcircles of triangles $BQX$ and $CPX$ intersect at a point $Y \\neq X$. Prove that points $A$, $X$, and $Y$ are collinear.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2024-P2",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2024,
+      "position": 2,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Graph Theory"
+      ],
+      "statement": "Consider a $100 \\times 100$ table, and identify the cell in row $a$ and column $b$, $1 \\leq a, b \\leq 100$, with the ordered pair $(a, b)$. Let $k$ be an integer such that $51 \\leq k \\leq 99$. A $k$-knight is a piece that moves one cell vertically or horizontally and $k$ cells to the other direction; that is, it moves from $(a, b)$ to $(c, d)$ such that $(|a - c|, |b - d|)$ is either $(1, k)$ or $(k, 1)$. The $k$-knight starts at cell $(1, 1)$, and performs several moves. A sequence of moves is a sequence of cells $(x_0, y_0) = (1, 1), (x_1, y_1), (x_2, y_2), \\dots, (x_n, y_n)$ such that, for all $i = 1, 2, \\dots, n$, $1 \\leq x_i, y_i \\leq 100$ and the $k$-knight can move from $(x_{i-1}, y_{i-1})$ to $(x_i, y_i)$. In this case, each cell $(x_i, y_i)$ is said to be reachable. For each $k$, find $L(k)$, the number of reachable cells.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2024-P3",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2024,
+      "position": 3,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Real Analysis",
+        "Inequalities"
+      ],
+      "statement": "Let $n$ be a positive integer and $a_1, a_2, \\dots, a_n$ be positive real numbers. Prove that \\[\\sum_{i=1}^n \\frac{1}{2^i} \\left(\\frac{2}{1 + a_i}\\right)^{2^i} \\geq \\frac{2}{1 + a_1a_2\\cdots a_n} - \\frac{1}{2^n}.\\].",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2024-P4",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2024,
+      "position": 4,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Combinatorics",
+        "Number Theory"
+      ],
+      "subfields": [
+        "Invariants",
+        "Permutations"
+      ],
+      "statement": "Prove that for every positive integer $t$ there is a unique permutation $a_0, a_1, \\dots, a_{t-1}$ of $0, 1, \\dots, t-1$ such that, for every $0 \\leq i \\leq t - 1$, the binomial coefficient $\\binom{t+i}{2a_i}$ is odd and $2a_i \\neq t + i$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "APMO-2024-P5",
+      "type": "problem",
+      "contest": "APMO",
+      "year": 2024,
+      "position": 5,
+      "host": "Brazil (Senior Coordinating Country)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Euclidean Geometry",
+        "Circle Geometry",
+        "Configurational Geometry"
+      ],
+      "statement": "Line $\\ell$ intersects sides $BC$ and $AD$ of cyclic quadrilateral $ABCD$ in its interior points $R$ and $S$ respectively, and intersects ray $DC$ beyond point $C$ at $Q$, and ray $BA$ beyond point $A$ at $P$. Circumcircles of the triangles $QCR$ and $QDS$ intersect at $N \\neq Q$, while circumcircles of the triangles $PAS$ and $PBR$ intersect at $M \\neq P$. Let lines $MP$ and $NQ$ meet at point $X$, lines $AB$ and $CD$ meet at point $K$ and lines $BC$ and $AD$ meet at point $L$. Prove that point $X$ lies on line $KL$.",
+      "image_ref": null,
+      "group": "APMO"
+    },
+    {
+      "id": "Putnam-2024-A1",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 1,
+      "host": "MAA (Mathematical Association of America)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Diophantine Equations",
+        "Modular Arithmetic"
+      ],
+      "statement": "Determine all positive integers $n$ for which there exist positive integers $a, b$, and $c$ satisfying $2a^n + 3b^n = 4c^n$.",
+      "image_ref": null,
+      "group": "Putnam"
+    },
+    {
+      "id": "Putnam-2024-A2",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 2,
+      "host": "MAA (Mathematical Association of America)",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Polynomials",
+        "Functional Equations",
+        "Calculus"
+      ],
+      "statement": "For which real polynomials $p$ is there a real polynomial $q$ such that $p(p(x)) - x = (p(x) - x)^2 q(x)$ for all real $x$?",
+      "image_ref": null,
+      "group": "Putnam"
+    },
+    {
+      "id": "Putnam-2024-A3",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 3,
+      "host": "Mathematical Association of America (MAA)",
+      "fields": [
+        "Combinatorics"
+      ],
+      "subfields": [
+        "Probability"
+      ],
+      "statement": "Let $S$ be the set of bijections $T : \\{1,2,3\\} \\times \\{1,2,3,\\dots,2024\\} \\to \\{1,2,3,\\dots,6072\\}$ such that $T(1,j) < T(2,j) < T(3,j)$ for all $j \\in \\{1,2,\\dots,2024\\}$ and $T(i,j) < T(i,j+1)$ for all $i \\in \\{1,2,3\\}$ and $j \\in \\{1,2,\\dots,2023\\}$. Do there exist $a,c \\in \\{1,2,3\\}$ and $b,d \\in \\{1,2,\\dots,2024\\}$ such that the fraction of elements $T \\in S$ for which $T(a,b) < T(c,d)$ is at least $\\tfrac{1}{3}$ and at most $\\tfrac{2}{3}$?",
+      "image_ref": null,
+      "group": "Putnam"
+    },
+    {
+      "id": "Putnam-2024-A4",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 4,
+      "host": "Mathematical Association of America (MAA)",
+      "fields": [
+        "Number Theory"
+      ],
+      "subfields": [
+        "Modular Arithmetic",
+        "Elementary Number Theory"
+      ],
+      "statement": "Find all primes $p > 5$ for which there exists an integer $a$ and an integer $r$ satisfying $1 \\leq r \\leq p - 1$ with the following property: the sequence $1, a, a^2,\\dots, a^{p-5}$ can be rearranged to form a sequence $b_0, b_1, b_2, \\dots, b_{p-5}$ such that $b_n - b_{n-1} - r$ is divisible by $p$ for $1 \\leq n \\leq p-5$.",
+      "image_ref": null,
+      "group": "Putnam"
+    },
+    {
+      "id": "Putnam-2024-A5",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 5,
+      "host": "Mathematical Association of America (MAA)",
+      "fields": [
+        "Geometry"
+      ],
+      "subfields": [
+        "Circle Geometry"
+      ],
+      "statement": "Consider a circle $\\Omega$ with radius 9 and center at the origin $(0,0)$, and a disk $\\Delta$ with radius 1 and center at $(r, 0)$, where $0 \\leq r \\leq 8$. Two points $P$ and $Q$ are chosen independently and uniformly at random on $\\Omega$. Which value(s) of $r$ minimize the probability that the chord $\\overline{PQ}$ intersects $\\Delta$?",
+      "image_ref": null,
+      "group": "Putnam"
+    },
+    {
+      "id": "Putnam-2024-A6",
+      "type": "problem",
+      "contest": "Putnam",
+      "year": 2024,
+      "position": 6,
+      "host": "Mathematical Association of America (MAA)",
+      "fields": [
+        "Algebra"
+      ],
+      "subfields": [
+        "Linear Algebra"
+      ],
+      "statement": "Let $c_0, c_1, c_2, \\dots$ be a sequence defined so that\n\\[\n\\frac{1 - 3x - \\sqrt{1 - 14x + 9x^2}}{4} = \\sum_{k=0}^{\\infty} c_k x^k\n\\]\nfor sufficiently small $x$. For a positive integer $n$, let $A$ be the $n \\times n$ matrix whose $(i,j)$-entry is $c_{i+j-1}$ for $i,j \\in \\{1,\\dots,n\\}$. Find $\\det(A)$.",
+      "image_ref": null,
+      "group": "Putnam"
+    }
+  ],
+  "links": [
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2020-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2021-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2022-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2023-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2024-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-IMO",
+      "target": "IMO-2025-P6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2020-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2020-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2020-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2020-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2020-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2021-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2021-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2021-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2021-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2021-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2022-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2022-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2022-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2022-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2022-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2023-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2023-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2023-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2023-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2023-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2024-P1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2024-P2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2024-P3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2024-P4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-APMO",
+      "target": "APMO-2024-P5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A1",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A2",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A3",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A4",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A5",
+      "type": "contest-problem"
+    },
+    {
+      "source": "contest-Putnam",
+      "target": "Putnam-2024-A6",
+      "type": "contest-problem"
+    },
+    {
+      "source": "IMO-2020-P1",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P2",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P3",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P4",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P5",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P6",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P6",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P1",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P2",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P3",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P4",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P1",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P2",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P3",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P4",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P5",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2022-P6",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P1",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P2",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P3",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P4",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P4",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2023-P6",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P1",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P2",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P3",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P4",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2024-P6",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P1",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P1",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P2",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P4",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2025-P6",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P1",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P2",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P3",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P4",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2020-P5",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P1",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P2",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P2",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P3",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P4",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2021-P5",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P2",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P3",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P3",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P4",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2022-P5",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P1",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P1",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P2",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P3",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P4",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2023-P5",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P1",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P2",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P3",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P4",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P4",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "APMO-2024-P5",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A1",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A2",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A3",
+      "target": "field-Combinatorics",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A4",
+      "target": "field-NumberTheory",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A5",
+      "target": "field-Geometry",
+      "type": "problem-field"
+    },
+    {
+      "source": "Putnam-2024-A6",
+      "target": "field-Algebra",
+      "type": "problem-field"
+    },
+    {
+      "source": "IMO-2020-P1",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P2",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P3",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P4",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P5",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P6",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2020-P6",
+      "target": "subfield-ExtremalProblems",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P1",
+      "target": "subfield-PigeonholePrinciple",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P1",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P1",
+      "target": "subfield-DiophantineEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P2",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P2",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P2",
+      "target": "subfield-Calculus",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P3",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P3",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P4",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P4",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P5",
+      "target": "subfield-Permutations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P5",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P5",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "subfield-DiophantineEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "subfield-SetTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2021-P6",
+      "target": "subfield-LinearAlgebra",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P1",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P1",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P2",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P2",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P2",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P3",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P3",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P3",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P4",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P4",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P5",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P5",
+      "target": "subfield-DiophantineEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P5",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P6",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P6",
+      "target": "subfield-ExtremalProblems",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2022-P6",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P1",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P2",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P2",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P2",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P3",
+      "target": "subfield-Polynomials",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P3",
+      "target": "subfield-Sequences",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P3",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P4",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P4",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P5",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P5",
+      "target": "subfield-PigeonholePrinciple",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P6",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P6",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2023-P6",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P1",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P2",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P3",
+      "target": "subfield-Sequences",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P3",
+      "target": "subfield-PigeonholePrinciple",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P3",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P4",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P4",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P4",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P5",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P5",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P5",
+      "target": "subfield-GameTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2024-P6",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P1",
+      "target": "subfield-CombinatorialGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P2",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P2",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P3",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P3",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P4",
+      "target": "subfield-Sequences",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P4",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P5",
+      "target": "subfield-GameTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P6",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "IMO-2025-P6",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P1",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P1",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P1",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P2",
+      "target": "subfield-Sequences",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P2",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P3",
+      "target": "subfield-SetTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P4",
+      "target": "subfield-Sequences",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P4",
+      "target": "subfield-Polynomials",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P4",
+      "target": "subfield-SetTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P5",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2020-P5",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P1",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P1",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P1",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P2",
+      "target": "subfield-Polynomials",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P2",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P2",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P3",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P3",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P3",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P4",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P4",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P5",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2021-P5",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P1",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P2",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P2",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P2",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P3",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P3",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P4",
+      "target": "subfield-GameTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P5",
+      "target": "subfield-Polynomials",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2022-P5",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P1",
+      "target": "subfield-CombinatorialGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P1",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P2",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P3",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P4",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P4",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P4",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P5",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2023-P5",
+      "target": "subfield-CombinatorialGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P1",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P1",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P1",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P2",
+      "target": "subfield-GraphTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P3",
+      "target": "subfield-RealAnalysis",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P3",
+      "target": "subfield-Inequalities",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P4",
+      "target": "subfield-Invariants",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P4",
+      "target": "subfield-Permutations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P5",
+      "target": "subfield-EuclideanGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P5",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "APMO-2024-P5",
+      "target": "subfield-ConfigurationalGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A1",
+      "target": "subfield-DiophantineEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A1",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A2",
+      "target": "subfield-Polynomials",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A2",
+      "target": "subfield-FunctionalEquations",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A2",
+      "target": "subfield-Calculus",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A3",
+      "target": "subfield-Probability",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A4",
+      "target": "subfield-ModularArithmetic",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A4",
+      "target": "subfield-ElementaryNumberTheory",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A5",
+      "target": "subfield-CircleGeometry",
+      "type": "problem-subfield"
+    },
+    {
+      "source": "Putnam-2024-A6",
+      "target": "subfield-LinearAlgebra",
+      "type": "problem-subfield"
+    }
+  ],
+  "metadata": {
+    "total_contests": 3,
+    "total_problems": 67,
+    "total_fields": 4,
+    "total_subfields": 22,
+    "total_nodes": 96,
+    "total_links": 298
+  }
+}
