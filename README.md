@@ -147,20 +147,10 @@ We also have configurable `pinTypes` array that allows specific node types to re
 
 Note: User interaction (drag/resize) temporarily reheats the system (alpha = 0.3 as in `handleResize`), then lets it cool back down.
 
----
-
-### 5. Installation and usage
-
-No build tools required as you can run it directly in any modern browser.
-
-This is a desktop-first design, but also responsive for tablet, mobile, and landscape mode. 
-
-However, due to high-fidelity physics simulation (N-body repulsion and multi-pass collision detection for such) that is only optimized for desktop CPU, mobile device users may experience a lower frame rate during initial layout relaxation or complex dragging due to the computational intensity of the live force-directed engine. 
-
 --- 
 
-### 6. Contribution
-To extend this project, I sincerely invite you to:
+### 5. Contribution
+To extend this project, I invite you to:
 
 - Add more problems by appending to `data_math_olympiad.json` following the existing schema
 - Adjust physics by modifying force params in `scripts.js`, for example, for better graph behavior
@@ -168,7 +158,7 @@ To extend this project, I sincerely invite you to:
 
 --- 
 
-### 7. Acknowledgments
+### 6. Acknowledgments
 
 - **D3.js Community**: for comprehensive force simulation documentation
 - **KaTeX Project**: for fast, beautiful mathematical rendering
@@ -176,7 +166,7 @@ To extend this project, I sincerely invite you to:
 
 ---
 
-### 8. Credits & License
+### 7. Credits & License
 This project is licensed under the **MIT License** created for educational purpose.  
 It utilizes the [D3.js](https://d3js.org/) library (ISC License) and [KaTeX](https://katex.org) (MIT License).
 

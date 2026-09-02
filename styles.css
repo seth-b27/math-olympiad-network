@@ -9,7 +9,7 @@ body {
     background: #fafafa;
     color: #1a1a1a;
     overflow: hidden;
-    cursor: default;
+    /* cursor: default; */
 }
 
 #container {
@@ -21,7 +21,7 @@ body {
 svg {
     display: block;
 }
-/*_______________________________________________________________________________ */
+
 .link {
     stroke: #e0e0e0;
     stroke-width: 0.5px;
@@ -36,7 +36,6 @@ svg {
     opacity: 1;
 }
 
-/*_______________________________________________________________________________ */
 .node circle {
     cursor: pointer;
     transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,7 +67,6 @@ svg {
 .node.pinned text {
     opacity: 1;
 }
-/*_______________________________________________________________________________ */
 
 #sidebar {
     position: fixed;
@@ -114,14 +112,20 @@ svg {
 }
 
 #sidebar .meta-item {
+    display: flex;
+    gap: 8px;
     font-size: 11px;
     line-height: 1.8;
     color: #666;
 }
 
+#sidebar .meta-item dd {
+    margin: 0;
+}
+
 #sidebar .meta-label {
     color: #999;
-    display: inline-block;
+    flex-shrink: 0;
     width: 80px;
 }
 
@@ -190,7 +194,6 @@ svg {
     transform: rotate(-45deg);
 }
 
-/*_______________________________________________________________________________ */
 
 #legend {
     position: fixed;
@@ -204,13 +207,12 @@ svg {
     z-index: 100;
 }
 
-#legend h3 {
+#legend p {
     font-family: 'Newsreader', serif;
-    font-size: 10px;
-    text-transform: uppercase;
+    font-size: 12px;
     letter-spacing: 1px;
     margin-bottom: 16px;
-    color: #999;
+    color: #1a1a1a;
 }
 
 .legend-item {
@@ -228,7 +230,6 @@ svg {
     margin-right: 12px;
     flex-shrink: 0;
 }
-/*_______________________________________________________________________________ */
 
 #controls {
     position: fixed;
@@ -263,7 +264,6 @@ button.active {
     color: #fff;
     border-color: #1a1a1a;
 }
-/*_______________________________________________________________________________ */
 #stats {
     position: fixed;
     top: 32px;
@@ -280,9 +280,6 @@ button.active {
     font-weight: 500;
 }
 
-/* RESPONSIVENESS */
-/*_______________________________________________________________________________ */
-/* Tablet (768px - 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
     #sidebar {
         width: 340px;
@@ -311,8 +308,7 @@ button.active {
     }
 }
 
-/*_______________________________________________________________________________ */
-/* Mobile (< 768px)*/
+
 @media (max-width: 768px) {
 
     /* sidebar slides from bottom instead*/
@@ -401,7 +397,7 @@ button.active {
         max-width: 160px;
     }
 
-    #legend h3 {
+    #legend p {
         font-size: 9px;
         margin-bottom: 12px;
     }
@@ -417,12 +413,11 @@ button.active {
         margin-right: 8px;
     }
 
-    /*node labels slightly larger on mobile */
     .node text {
         font-size: 10px;
     }
 
-    /* then, improve touch targets */
+    /* improve touch targets */
     .node circle {
         stroke-width: 3px;
     }
@@ -432,8 +427,6 @@ button.active {
     }
 }
 
-/*_______________________________________________________________________________ */
-/* Landscape mode on mobile */
 @media (max-width: 768px) and (orientation: landscape) {
     #sidebar {
         height: 85vh;
